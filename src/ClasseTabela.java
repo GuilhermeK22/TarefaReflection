@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class ClasseTabela {
+@Tabela(nometabela = "Tabela Reflection")
+public class ClasseTabela {
+
 }

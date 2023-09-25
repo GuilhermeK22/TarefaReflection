@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Tabela {
+import java.lang.annotation.*;
+
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.FIELD, ElementType.TYPE, ElementType.CONSTRUCTOR})
+
+public @interface Tabela {
+    String nometabela();
 }
